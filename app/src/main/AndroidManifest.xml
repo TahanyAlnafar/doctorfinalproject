@@ -16,13 +16,22 @@
         android:theme="@style/Theme.DoctorsFinalProject"
         tools:targetApi="31">
         <activity
-            android:name=".DoctorsCategoryActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".AllDoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_details_activity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TopicsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

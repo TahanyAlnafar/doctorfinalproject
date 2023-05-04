@@ -1,8 +1,38 @@
 <resources>
     <string name="app_name">Doctors Final Project</string>
-    <string name="category">تصنيفات الاطباء</string>
+    <string name="category">التخصصات</string>
     <string name="doctors">الاطباء</string>
     <string name="online_doctors">الاطباء المتاحين</string>
     <string name="popular">الاكثر شهرة</string>
     <string name="all">الكل</string>
+    <string name="medical_app">الرعاية الطبية</string>
+    <string name="welcome_back">مرحبا بك !</string>
+    <string name="sign_up">انشاء حساب</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_with_social_media">سجل بواسطة السوشيال ميديا</string>
+    <string name="hello_sign_in">تسجيل الدخول</string>
+    <string name="forget_pass">نسيت كلمة المرور ؟</string>
+    <string name="dont_have_account">ليس لدي حساب ؟</string>
+    <string name="enter_password">ادخل كلمة المرور</string>
+    <string name="enter_email">ادخل الايميل</string>
+    <string name="enter_name">ادخل الاسم ثلاثي</string>
+    <string name="enter_birthdate">ادخل تاريخ ميلادك</string>
+    <string name="enter_mobile">ادخل رقم الجوال</string>
+    <string name="enter_address">ادخل العنوان</string>
+    <string name="enter_confirm_password">ادخل تاكيد كلمة المرور</string>
+    <string name="details">تفاصيل</string>
+    <string name="availability">متاح</string>
+    <string name="book_now">حجز الان</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">مرحبا! 👋</string>
+    <string name="service">الخدمات</string>
+    <string name="good_service">احصل على افضل خدمات طبية</string>
+    <string name="coming_appointment">المواعيد القادمة</string>
+    <string name="appointment">المواعيد</string>
+    <string name="logout">هل انت متاكد من تسجيل الخروج</string>
+    <string name="cancel">الغاء</string>
+    <string name="logout_btn">تسجيل الخروج</string>
+    <string name="yes">نعم</string>
+    <string name="size">الحجم:</string>
 </resources>

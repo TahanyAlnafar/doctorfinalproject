@@ -4,14 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DoctorsCategoryActivity">
-
+    tools:context=".AllDoctorsActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_path_3871"
         android:paddingBottom="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -25,9 +23,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:fontFamily="@font/noto_sans_bold"
-            android:text="@string/category"
-            android:textColor="@color/white"
-            android:textSize="25sp"
+            android:text=" الموضوعات"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/search"
         android:gravity="end"
@@ -76,7 +74,8 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
         app:queryHint="search"
         app:queryBackground="@null"
-         android:layoutDirection="rtl"
-           />
+        android:layoutDirection="rtl"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -76,6 +76,7 @@ public class AllDoctorsActivity extends AppCompatActivity {
                 } else {
                     Log.e("TAG", "Error getting documents: ", task.getException());
                 }
+
             }
         });
 
